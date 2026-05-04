@@ -51,7 +51,7 @@
 {0em}
 {}[\titlerule]
 
-\titleformat{\subsection}[runin]
+\titleformat{\subsection}
 {}
 {}
 {0em}
@@ -155,7 +155,7 @@
 
 
 
-\newcommand{\customsubheader}[3]{\textbf{#2}\workdividor#1 \hfill \textbf{#3}}
+\newcommand{\customsubheader}[4]{\textbf{#2} \hfill \textbf{#4}\\\textit{#1} \hfill \textit{#3}}
 
 
 
@@ -167,60 +167,60 @@
 %%  experience
 \section{restaurant experience}
 
-\subsection{\customsubheader{Server}{Bolero}{Mar 2021---May 2021}}
+\subsection{\customsubheader{Server}{Bolero}{New York, NY}{Mar 2021---May 2021}}
 \subsubsectiontext{
     \begin{itemize}
-        \item Seated and waited on parties of up to 10 patrons in New York, NY.
+        \item Seated and waited on parties of up to 10 patrons.
         \item Made and served cocktails, beer, wine, kombucha, and tea.
         \item Set up and broke down indoor/outdoor seating area each shift.
     \end{itemize}
 }
 
-\subsection{\customsubheader{Bartender/Waiter}{Dhamaka}{Feb 2021---Mar 2021}}
+\subsection{\customsubheader{Bartender/Waiter}{Dhamaka}{New York, NY}{Feb 2021---Mar 2021}}
 \subsubsectiontext{
     \begin{itemize}
         \item Made cocktails and mixed drinks; served wine, champagne, beer, and soda.
-        \item Seated guests and waited on parties of up to 8 patrons at a time in New York, NY.
+        \item Seated guests and waited on parties of up to 8 patrons at a time.
     \end{itemize}
 }
 
-\subsection{\customsubheader{Bartender/Waiter}{College Town Bagels}{May 2016---Sep 2016}}
+\subsection{\customsubheader{Bartender/Waiter}{College Town Bagels}{Ithaca, NY}{May 2016---Sep 2016}}
 \subsubsectiontext{
     \begin{itemize}
-        \item Served ice cream and prepared sandwiches, bagels, pastries, cocktails, and coffee in Ithaca, NY.
+        \item Served ice cream and prepared sandwiches, bagels, pastries, cocktails, and coffee.
         \item Waited on and cleaned up after indoor and outdoor dining guests.
     \end{itemize}
 }
 
-\subsection{\customsubheader{Waiter}{The 1850 House Inn}{May 2015---Sep 2015}}
+\subsection{\customsubheader{Waiter}{The 1850 House Inn}{Rosendale, NY}{May 2015---Sep 2015}}
 \subsubsectiontext{
     \begin{itemize}
-        \item Set up and cleaned restaurant area and outdoor patio in Rosendale, NY.
+        \item Set up and cleaned restaurant area and outdoor patio.
         \item Waited on patrons, bussed tables, and restocked kitchen/bar.
         \item Coordinated with kitchen, waiting, and bar staff during dinner service.
     \end{itemize}
 }
 
-\subsection{\customsubheader{Granary Server}{Mohonk Mountain House}{May 2014---Sep 2014}}
+\subsection{\customsubheader{Granary Server}{Mohonk Mountain House}{New Paltz, NY}{May 2014---Sep 2014}}
 \subsubsectiontext{
     \begin{itemize}
-        \item Prepared and served food for 400+ people daily at a historic resort in New Paltz, NY.
+        \item Prepared and served food for 400+ people daily at a historic resort.
         \item Coordinated with 100+ inside kitchen staff and 10 servers across each meal service.
         \item Delivered foods and cooking/serving supplies between kitchen and granary.
     \end{itemize}
 }
 
-\subsection{\customsubheader{Baker's Assistant}{The Alternative Baker}{May 2013---Sep 2013}}
+\subsection{\customsubheader{Baker's Assistant}{The Alternative Baker}{Rosendale, NY}{May 2013---Sep 2013}}
 \subsubsectiontext{
     \begin{itemize}
-        \item Assisted the head baker in mixing, kneading, and baking bread in Rosendale, NY.
+        \item Assisted the head baker in mixing, kneading, and baking bread.
         \item Tended to customers, cleaned the restaurant, and made pastries and breakfast cuisine.
     \end{itemize}
 }
 
 \section{engineering experience}
 
-\subsection{\customsubheader{Lead Software Engineer}{Tech To The Rescue}{Sep 2025---}}
+\subsection{\customsubheader{Lead Software Engineer}{Tech To The Rescue}{Remote}{Sep 2025---}}
 \subsubsectiontext{
     \begin{itemize}
         \item Building a pipeline to ingest distributed \textbf{RTSP} streams, perform real-time processing, and cache video for low latency.
@@ -230,7 +230,7 @@
     \end{itemize}
 }
 
-\subsection{\customsubheader{Software Engineer II}{JPMorgan Chase}{Sep 2024---Mar 2025}}
+\subsection{\customsubheader{Software Engineer II}{JPMorgan Chase}{New York, NY}{Sep 2024---Mar 2025}}
 \subsubsectiontext{
     \begin{itemize}
       \item Built a dashboard capable of visualizing 1k+ \textbf{LLMs}, allowing data scientists to monitor \textbf{ML} workflows.
@@ -240,7 +240,7 @@
     \end{itemize}
 }
 
-\subsection{\customsubheader{Software Engineer I}{HeroGrow}{Apr 2023---Sep 2024}}
+\subsection{\customsubheader{Software Engineer I}{HeroGrow}{Remote}{Apr 2023---Sep 2024}}
 \subsubsectiontext{
     \begin{itemize}
       \item Developed a \textbf{Ruby on Rails} REST API to manage venue seating layouts, allowing real-time ticket reservations.
@@ -278,20 +278,6 @@
 
 
 
-
-
-
-
-%% PROJECTS
-
-\section{Projects}
-
-\subsection{\customsubheader{Contributor}{pipenv}{Dec 2023---Feb 2024}}
-\subsubsectiontext{
-\begin{itemize} 
-    \item Migrated Click library to Rich and argparse tooling, reducing the package size by 1MB and cutting vendor dependencies.
-\end{itemize}
-}
 
 
 
@@ -365,4 +351,3 @@
 
 
 \end{document}
-test
