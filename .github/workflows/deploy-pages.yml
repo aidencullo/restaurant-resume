@@ -2,92 +2,45 @@ name: Deploy Resume to Pages
 
 on:
   push:
-    branches:
-      - dev
-      - staging
-      - prod
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
-  build-prod:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: prod
 
       - uses: xu-cheng/latex-action@v3
         with:
           root_file: resume.tex
           latexmk_use_xelatex: true
 
-      - uses: actions/upload-artifact@v4
-        with:
-          name: resume-prod
-          path: resume.pdf
+      - name: Assemble site
+        run: |
+          mkdir -p site
+          cp index.html resume.pdf site/
 
-  build-staging:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: staging
-
-      - uses: xu-cheng/latex-action@v3
-        with:
-          root_file: resume.tex
-          latexmk_use_xelatex: true
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: resume-staging
-          path: resume.pdf
-
-  build-dev:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: dev
-
-      - uses: xu-cheng/latex-action@v3
-        with:
-          root_file: resume.tex
-          latexmk_use_xelatex: true
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: resume-dev
-          path: resume.pdf
-
-  deploy-pages:
-    needs: [build-prod, build-staging, build-dev]
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    steps:
-      - name: Download prod PDF
-        uses: actions/download-artifact@v4
-        with:
-          name: resume-prod
-          path: site
-
-      - name: Download staging PDF
-        uses: actions/download-artifact@v4
-        with:
-          name: resume-staging
-          path: site/staging
-
-      - name: Download dev PDF
-        uses: actions/download-artifact@v4
-        with:
-          name: resume-dev
-          path: site/dev
-
-      - uses: actions/configure-pages@v4
-
+      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
-      - uses: actions/deploy-pages@v4
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
