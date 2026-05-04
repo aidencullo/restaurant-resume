@@ -3,6 +3,10 @@ name: Deploy Resume to Pages
 on:
   push:
     branches: [main]
+    paths:
+      - "resume.pdf"
+      - "index.html"
+      - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
 permissions:
@@ -15,32 +19,19 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: xu-cheng/latex-action@v3
-        with:
-          root_file: resume.tex
-          latexmk_use_xelatex: true
-
-      - name: Assemble site
-        run: |
-          mkdir -p site
-          cp index.html resume.pdf site/
-
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
   deploy:
-    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+
+      - run: mkdir site && cp index.html resume.pdf site/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
       - id: deployment
         uses: actions/deploy-pages@v4
