@@ -351,67 +351,67 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 183.
+(hyperref)                removing `\hfill' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 183.
+(hyperref)                removing `\\' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 183.
+(hyperref)                removing `\hfill' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 191.
+(hyperref)                removing `\hfill' on input line 190.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 191.
+(hyperref)                removing `\\' on input line 190.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 191.
+(hyperref)                removing `\hfill' on input line 190.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 200.
+(hyperref)                removing `\hfill' on input line 199.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 200.
+(hyperref)                removing `\\' on input line 199.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 200.
+(hyperref)                removing `\hfill' on input line 199.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 209.
+(hyperref)                removing `\hfill' on input line 208.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 209.
+(hyperref)                removing `\\' on input line 208.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 209.
+(hyperref)                removing `\hfill' on input line 208.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 219.
+(hyperref)                removing `\hfill' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 219.
+(hyperref)                removing `\\' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 219.
+(hyperref)                removing `\hfill' on input line 218.
 
 [1
 
-] [2] (./resume.aux)
+] (./resume.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -426,6 +426,6 @@ Here is how much of TeX's memory you used:
  39878 multiletter control sequences out of 15000+600000
  628615 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,5n,79p,484b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,5n,79p,484b,337s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume.xdv (2 pages, 35556 bytes).
+Output written on resume.xdv (1 page, 34680 bytes).
