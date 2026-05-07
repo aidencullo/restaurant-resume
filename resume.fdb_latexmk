@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1778176157.73146 "resume.xdv" "resume.pdf" "resume" 1778176157.78603 0
-  "resume.xdv" 1778176157.7098 39288 ece9e0b8f6969da7be8e77898593ba18 "xelatex"
+["xdvipdfmx"] 1778176420.20899 "resume.xdv" "resume.pdf" "resume" 1778176420.2443 0
+  "resume.xdv" 1778176420.19141 39240 6407a65114ed0e4d16ed887e477f6870 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1778176157.11511 "resume.tex" "resume.xdv" "resume" 1778176157.78559 0
+["xelatex"] 1778176419.61878 "resume.tex" "resume.xdv" "resume" 1778176420.24391 0
   "/Users/aidencullo/Library/TinyTeX/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/Users/aidencullo/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/Users/aidencullo/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -55,9 +55,9 @@
   "/Users/aidencullo/Library/TinyTeX/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/Users/aidencullo/Library/TinyTeX/texmf-var/web2c/xetex/xelatex.fmt" 1777868865 4428265 882c423e719d3aeea47ce130f5f00c92 ""
   "/Users/aidencullo/Library/TinyTeX/texmf.cnf" 1777868833 637 edd806fb06a89761a6034e1968af9017 ""
-  "resume.aux" 1778176157.70931 2421 12ec41e57dafd522e962fa62c7fe4887 "xelatex"
-  "resume.out" 1778176157.70961 3603 c3a6623a1abca622ffb048e2e91cc91a "xelatex"
-  "resume.tex" 1778176154.20819 6036 e782a9f476d78970374aa4e2cd96c628 ""
+  "resume.aux" 1778176420.19098 2421 12ec41e57dafd522e962fa62c7fe4887 "xelatex"
+  "resume.out" 1778176420.19125 3603 c3a6623a1abca622ffb048e2e91cc91a "xelatex"
+  "resume.tex" 1778176416.56547 6031 e3b690f94cd5d84ed4d07b184f6d596e ""
   (generated)
   "resume.aux"
   "resume.log"
