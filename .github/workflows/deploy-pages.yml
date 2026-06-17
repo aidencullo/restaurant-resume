@@ -24,10 +24,12 @@ jobs:
           root_file: resume.tex
           latexmk_use_xelatex: true
 
+      - name: Build site
+        run: mkdir site && cp resume.pdf index.html site/
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
+          publish_dir: site
           publish_branch: gh-pages
-          include_files: resume.pdf,index.html
