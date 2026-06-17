@@ -434,10 +434,10 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  11219 strings out of 470015
  172335 string characters out of 5474612
- 617319 words of memory out of 5000000
+ 618319 words of memory out of 5000000
  39877 multiletter control sequences out of 15000+600000
  628615 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,5n,79p,484b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume.xdv (2 pages, 38804 bytes).
+Output written on resume.xdv (2 pages, 38968 bytes).
