@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.4)  18 JUN 2026 12:33
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.5.4)  18 JUN 2026 12:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,35 +409,23 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hfill' on input line 215.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 224.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 224.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 224.
-
 [1
 
-] [2] (./resume.aux)
+] (./resume.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: DDF6BED4246B486E47989A5141AB21BE;3685.
+(rerunfilecheck)             Checksum: 4E4B437C2B07F33E4CB8EC70A1C15861;3250.
  ) 
 Here is how much of TeX's memory you used:
  11219 strings out of 470015
  172335 string characters out of 5474612
- 618319 words of memory out of 5000000
+ 615873 words of memory out of 5000000
  39877 multiletter control sequences out of 15000+600000
  628615 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,5n,79p,484b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,5n,79p,484b,337s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume.xdv (2 pages, 39640 bytes).
+Output written on resume.xdv (1 page, 35988 bytes).
